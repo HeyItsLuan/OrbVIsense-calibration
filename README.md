@@ -272,6 +272,7 @@ The script receives the dataset directory as its only argument.
 From the repository directory:
 
 ```bash
+cd "$HOME/Escritorio/orbvisense-calibration"
 python3 ./dataset_to_rosbag.py \
     "$HOME/Escritorio/dataset_CAMIMU"
 ```
@@ -285,6 +286,7 @@ $HOME/Escritorio/dataset_CAMIMU/camera_imu.bag
 For the stationary dataset:
 
 ```bash
+cd "$HOME/Escritorio/orbvisense-calibration"
 python3 ./dataset_to_rosbag.py \
     "$HOME/Escritorio/dataset_IMU"
 ```
