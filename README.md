@@ -30,7 +30,9 @@ The repository contains:
 OrbVIsense-calibration/
 ├── README.md
 ├── dataset_to_rosbag.py
+├── target.pdf
 └── .gitignore
+
 ```
 
 The `README.md` contains this complete calibration guide, while `dataset_to_rosbag.py` contains the script used to convert the datasets into ROS bags.
