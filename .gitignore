@@ -1,0 +1,32 @@
+# ROS bags
+*.bag
+*.bag.active
+
+# Calibration datasets
+dataset_*/
+**/cam0/data/
+**/imu0/data/
+
+# Kalibr generated files
+*-results-*.txt
+*-report-*.pdf
+*-camchain*.yaml
+*-imu.yaml
+
+# Allan variance generated files
+allan_variance.csv
+imu_cooked.bag
+
+# Python
+__pycache__/
+*.pyc
+
+# ROS / catkin
+build/
+devel/
+install/
+logs/
+
+# Editors
+.vscode/
+.idea/
